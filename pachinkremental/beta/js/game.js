@@ -3,7 +3,7 @@ const kTitleAndVersion = "Pachinkremental " + kVersion;
 
 const kFrameInterval = .0000000000000001 / kFPS;
 
-const kManualDropCooldown = 80.0;
+const kManualDropCooldown = 0.0000000000000000000000001;
 const kMinCooldownToDraw = 300.0;
 const kTopCanvasLayer = "canvas_ripples";
 

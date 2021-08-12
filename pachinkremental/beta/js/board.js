@@ -1,4 +1,4 @@
-const kPegRadius = 1.5;
+const kPegRadius = .5;
 const kBallRadius = 5.5;
 
 const kCellSize = 8.0;

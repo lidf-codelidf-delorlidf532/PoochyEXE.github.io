@@ -149,7 +149,7 @@ function InitState() {
 		update_buff_display: true,
 		auto_drop_cooldown: 1000.0,
 		auto_drop_cooldown_left: 1000.0,
-		max_balls: 1,
+		max_balls: 100,
 		ball_type_rates: [1.0],
 		special_ball_multiplier: 2,
 		sapphire_ball_exponent: 1.0,
@@ -196,8 +196,8 @@ function InitState() {
 				target_hits: {}
 			},
 			upgrade_levels: {
-				multiplier: 0,
-				center_value: 0,
+				multiplier: 1000,
+				center_value: 1000,
 				auto_drop: 0,
 				max_balls: 0,
 				auto_drop_delay: 0,

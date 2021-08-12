@@ -154,7 +154,7 @@ function InitState() {
 		notifications: new Array(0),
 		upgrade_headers: null,
 		upgrade_category_to_header_map: {},
-		display_points: 0,
+		display_points: 10e10,
 		canvas_scale: 2.0,
 		redraw_all: true,
 		redraw_targets: false,

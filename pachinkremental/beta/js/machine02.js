@@ -604,7 +604,7 @@ class BumperMachine extends PachinkoMachine {
 
 		let min_drop_x = 10;
 		let max_drop_x = kWidth - 10;
-		let min_drop_y = 0;
+		let min_drop_y = 10;
 		let max_drop_y = y;
 		let drop_zones = [
 			new Rectangle(min_drop_x, max_drop_x, min_drop_y, max_drop_y)
@@ -686,7 +686,7 @@ class BumperMachine extends PachinkoMachine {
 				category: "board",
 				description: "Multipiles all point gains.",
 				cost_func: level => 250 * Math.pow(5, level),
-				value_func: level => Math.pow(10, Math.floor(level / 3)) * [1, 2, 5][level % 3],
+				value_func: level => Math.pow(1000, Math.floor(level / 3)) * [1, 2, 5][level % 3],
 				max_level: Infinity,
 				value_suffix: kTimesSymbol,
 				visible_func: null,

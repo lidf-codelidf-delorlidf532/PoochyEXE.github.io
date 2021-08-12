@@ -1,7 +1,7 @@
 const kVersion = "v1.11.4-beta";
 const kTitleAndVersion = "Pachinkremental " + kVersion;
 
-const kFrameInterval = 1000.0 / kFPS;
+const kFrameInterval = 1.0 / kFPS;
 
 const kManualDropCooldown = 80.0;
 const kMinCooldownToDraw = 300.0;
